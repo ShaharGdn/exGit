@@ -1,3 +1,14 @@
 body {
     background-color: #fff;
 }
+
+.ball {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
