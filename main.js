@@ -36,8 +36,10 @@ function onBall3Click(elBall, ball1, ball2) {
 
     elball1.classList = ''
     elball2.classList = ''
-    elball1.classList.add('ball2')
+    elball1.classList.add('ball')
     elball2.classList.add('ball')
+    elball1.classList.add('ball2')
+    elball2.classList.add('ball1')
 }
 
 function onBall4Click(elBall, ball1, ball2, minDiameter) {
@@ -71,4 +73,8 @@ function onBall4Click(elBall, ball1, ball2, minDiameter) {
 function onBall5Click() {
     const elBody = document.querySelector('body')
     elBody.style.backgroundColor = getRandomColor()
+}
+
+function onBall6Click() {
+    location.reload()
 }
