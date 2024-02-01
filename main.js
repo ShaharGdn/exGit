@@ -67,3 +67,8 @@ function onBall4Click(elBall, ball1, ball2, minDiameter) {
     elball2.style.height = ball2Size - randomAmount + 'px'
     elball2.innerText = +elball2.innerText - randomAmount
 }
+
+function onBall5Click() {
+    const elBody = document.querySelector('body')
+    elBody.style.backgroundColor = getRandomColor()
+}
