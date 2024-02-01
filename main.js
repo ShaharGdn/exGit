@@ -1,10 +1,10 @@
 'use strict'
 
-function onBallClick(elBall) {
+function onBallClick(elBall, maxDiameter) {
     const currHeight = +elBall.innerText
     const currWidth = +elBall.innerText
     const randomAmount = getRandomInt(20, 60)
-    if (currHeight >= 400 || (currWidth + randomAmount) >= 400) {
+    if (currHeight >= maxDiameter || (currWidth + randomAmount) >= maxDiameter) {
         elBall.style.width = 100 + 'px'
         elBall.style.height = 100 + 'px'
         elBall.innerText = 100
