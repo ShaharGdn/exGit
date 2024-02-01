@@ -14,3 +14,7 @@ function onBallClick(elBall, maxDiameter) {
     elBall.style.height = currHeight + randomAmount + 'px'
     elBall.innerText = +elBall.innerText + randomAmount
 }
+
+function onBall3Click(elBall, ball1, ball2) {
+    console.log('hi:')
+}
