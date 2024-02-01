@@ -10,7 +10,21 @@ body {
     background-color: red;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 50px auto;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.ball2 {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 200);
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
     font-size: 22px;
     font-weight: bold;
     transition: 1s;
