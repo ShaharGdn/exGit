@@ -4,56 +4,52 @@ body {
 
 .ball {
     display: flex;
-    height: 500px;
-    width: 500px;
-    border-radius: 50%;
-    background-color: red;
     justify-content: center;
     align-items: center;
     margin: 50px auto;
     font-size: 22px;
     font-weight: bold;
     transition: 1s;
+}
+
+.ball1 {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: red;
 }
 
 .ball2 {
-    display: flex;
-    height: 500px;
-    width: 500px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     background-color: rgb(255, 0, 200);
-    justify-content: center;
-    align-items: center;
-    margin: 50px auto;
-    font-size: 22px;
-    font-weight: bold;
-    transition: 1s;
 }
 
 .ball3 {
-    display: flex;
     height: 100px;
     width: 100px;
     border-radius: 50%;
     background-color: rgb(0, 255, 60);
-    justify-content: center;
-    align-items: center;
-    margin: 50px auto;
-    font-size: 22px;
-    font-weight: bold;
-    transition: 1s;
 }
 
 .ball4 {
-    display: flex;
     height: 100px;
     width: 100px;
     border-radius: 50%;
     background-color: rgb(17, 0, 255);
-    justify-content: center;
-    align-items: center;
-    margin: 50px auto;
-    font-size: 22px;
-    font-weight: bold;
-    transition: 1s;
+}
+
+.ball4 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(17, 0, 255);
+}
+
+.ball5 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(225, 255, 0);
 }
