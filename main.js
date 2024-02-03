@@ -78,3 +78,24 @@ function onBall5Click() {
 function onBall6Click() {
     location.reload()
 }
+
+var gInterval
+var cycleCount = 0
+var maxCycles = 10
+
+function startInterval() {
+    gInterval = setInterval(balls12Intervals, 2000)
+}
+
+function balls12Intervals() {
+    cycleCount++
+
+    const elball1 = document.querySelector('.ball1')
+    const elball2 = document.querySelector('.ball2')
+    
+    onBallClick(elball1, 400)
+    onBall2Click(elball2, 300)
+
+    if (cycleCount >= maxCycles) clearInterval(gInterval)
+}
+
